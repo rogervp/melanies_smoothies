@@ -44,6 +44,6 @@ if ingredients_list:
         st.success('Your Smoothie is ordered, ' + name_on_order + '!', icon="✅")
 
 #Section to display fruit information
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response.json())
+#import requests
+#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+#st.text(fruityvice_response.json())
